@@ -65,7 +65,13 @@ public class Lampak {
     public void setLampakValue(int sor, int oszlop, boolean ertek) {
         this.lampak[sor][oszlop] = ertek;
         this.lampakDb[sor][oszlop] = ertek ? 1 : 0;
-         kiir();
+         //kiir();
+    }
+    
+    public void setLampakValue(int sor, int oszlop, boolean ertek, int szomszedok []) {
+        this.lampak[sor][oszlop] = ertek;
+        this.lampakDb[sor][oszlop] = ertek ? 1 : 0;
+         //kiir();
     }
 
     //kiiratás, megjelenítés
