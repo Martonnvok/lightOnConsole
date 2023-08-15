@@ -11,9 +11,7 @@ public class LightOnConsole {
     }
 
     private static void kapcsolasokMegjelenese() {
-         //Lampak lampak = new Lampak();
-         Kapcsolasok K = new Kapcsolasok();
-         K.ertekValtoztatasok();
+         JatekInditasa K = new JatekInditasa();
     }
     
     
